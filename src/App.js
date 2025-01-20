@@ -160,7 +160,7 @@ function App() {
 
 
 
-          <h4 className="myfont_title text-center fs-2">React Project - 감정 일기장</h4>
+          <h4 className="myfont_title text-center fs-2">감정 일기장: 운영팀 웹 어드민 시스템 v2</h4>
 
           {/* 1. 컴포넌트 연결(마운트) 하기 */}
           <div className="w-75 mx-auto">
