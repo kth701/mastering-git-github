@@ -161,8 +161,8 @@ function App() {
 
 
           <h4 className="myfont_title text-center fs-2">감정 일기장 V1</h4>
-          <h5>Welcom to 운영팀 웹 어드민 시스템 v3</h5>
-          <p>접근 권한이 필요하신 분은 운영팀에 문의해주세요.</p>
+          <h5>Welcom to 운영팀 웹 어드민 시스템 v1</h5>
+          <h5>Welcom to 운영팀 웹 어드민 시스템 v2</h5>
           
           {/* 1. 컴포넌트 연결(마운트) 하기 */}
           <div className="w-75 mx-auto">
