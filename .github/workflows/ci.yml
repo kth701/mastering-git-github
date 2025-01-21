@@ -11,8 +11,8 @@ jobs:
     steps:
       - name: Checkout source code.
         uses: actions/checkout@v4
+      - name: echo Hello
+        run: echo "Hello"
 
-      - name: action/setup-node@v2
-        with:
-          node-version: '22'
+
 
