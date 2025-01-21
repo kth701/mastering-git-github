@@ -9,16 +9,16 @@ jobs:
     runs-on: ubuntu-latest
     strategy: 
       matrix:
-        node-version: [10.x, 18.x, 20.x, 22.x]
+        node-version: [18.x, 20.x, 22.x]
 
     steps:
       - name: Checkout source code.
         uses: actions/checkout@v2
 
-      - name: Use Node.js ${{matrix.node-version}}
-        uses: actions/setup-node@v2
-        with:
-          node-version:  ${{matrix.node-version}}
+      # - name: Use Node.js ${{matrix.node-version}}
+      #   uses: actions/setup-node@v2
+      #   with:
+      #     node-version:  ${{matrix.node-version}}
 
       - name: Check Node v
         uses: node -v          
@@ -26,6 +26,9 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      # - name: Deploy
-      #   run: npm run test
+      - name: npm run  build
+        run: npm run build        
+
+      - name: npm run test
+        run: npm run test
         
