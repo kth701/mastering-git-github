@@ -75,3 +75,19 @@ jobs:
       - name: Build with Gradle
         run: ./gradlew build
         shell: bash
+
+
+
+
+    - name: Check Node v
+        uses: node -v          
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: npm run  build
+        run: npm run build        
+
+      - name: npm run test
+        run: npm run test
+        
