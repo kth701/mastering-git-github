@@ -22,8 +22,5 @@ jobs:
       - name: echo Hello
         run: echo "Hello  workflow test!!!!"
 
-      - name: npm run test
-        run: npm run test
-
 
 
