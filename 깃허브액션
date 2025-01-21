@@ -91,3 +91,5 @@ jobs:
       - name: npm run test
         run: npm run test
         
+
+        >프로젝트 -> .github -> workflows -> xxx.yml
